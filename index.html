@@ -1,0 +1,332 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special design</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <aside id="aside">
+    <div id="open"><i class="fa-solid fa-gear"></i></div>
+    <div class="colors card text-center">
+      <h6 class="card-header">Color</h6>
+      <ul class="pick d-flex justify-content-between card-body">
+        <li data-color="#ff9800"></li>
+        <li data-color="#e91e63"></li>
+        <li data-color="#2196f3"></li>
+        <li data-color="#009688"></li>
+        <li data-color="#4caf50"></li>
+      </ul>
+    </div>
+    <div class="random-bg card text-center">
+      <h6 class="card-header">Random Background</h6>
+      <div class="card-body">
+        <button id="random-yes" data-bg="yes" class="btn">Yes</button>
+        <button id="random-no" data-bg="no" class="btn">No</button>
+      </div>
+    </div>
+    <div class="show-bullets card text-center">
+      <h6 class="card-header">Show Bullets</h6>
+      <div class="card-body">
+        <button id="bullets-yes" data-show="yes" class="btn">Yes</button>
+        <button id="bullets-no" data-show="no" class="btn">No</button>
+      </div>
+    </div>
+    <button id="reset" class="btn active">Reset</button>
+  </aside>
+  <div class="side-bullets">
+    <div data-name="About Us" class="bullet"><a href="#about"></a></div>
+    <div data-name="Our Skills" class="bullet"><a href="#skills"></a></div>
+    <div data-name="Our Gallery" class="bullet"><a href="#gallery"></a></div>
+    <div data-name="Timeline" class="bullet"><a href="#timeline"></a></div>
+    <div data-name="Features" class="bullet"><a href="#features"></a></div>
+    <div data-name="Testimonials" class="bullet"><a href="#testimonials"></a></div>
+  </div>
+  <div class="landing-area">
+    <div class="overlay bg-dark bg-opacity-50"></div>
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand logo" href="">Special Design</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#timeline" class="nav-link">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="welcome">
+      <h1>We Are <span>Creative</span> Agency</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quaerat accusantium asperiores, aliquid vero enim.</p>
+    </div>
+  </div>
+  <div class="about" id="about">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="about-info d-flex align-items-center flex-column flex-grow-1">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis non voluptate id?</p>
+      </div>
+      <div class="about-img">
+        <img src="imgs/about-us.jpg" alt="About Us">
+      </div>
+    </div>
+  </div>
+  <div class="skills" id="skills">
+    <div class="container d-flex flex-column justify-content-between align-items-center pt-5 pb-5">
+      <h2>Our Skills</h2>
+      <div class="skill d-flex align-items-center">
+        <span class="name">HTML</span>
+        <div class="progress"><span data-width="80%" class="bar html"></span></div>
+      </div>
+      <div class="skill d-flex align-items-center">
+        <span class="name">CSS</span>
+        <div class="progress"><span data-width="90%" class="bar css"></span></div>
+      </div>
+      <div class="skill d-flex align-items-center">
+        <span class="name">JavaScript</span>
+        <div class="progress"><span data-width="85%" class="bar js"></span></div>
+      </div>
+      <div class="skill d-flex align-items-center">
+        <span class="name">Bootstrap</span>
+        <div class="progress"><span data-width="70%" class="bar bs"></span></div>
+      </div>
+      <div class="skill d-flex align-items-center">
+        <span class="name">PHP</span>
+        <div class="progress"><span data-width="50%" class="bar php"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery pt-5 pb-5" id="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="imgs-area">
+        <div class="img-box">
+          <img src="imgs/01.jpg" alt="Image One">
+        </div>
+        <div class="img-box">
+          <img src="imgs/02.jpg" alt="Image Two">
+        </div>
+        <div class="img-box">
+          <img src="imgs/03.jpg" alt="Image Three">
+        </div>
+        <div class="img-box">
+          <img src="imgs/04.jpg" alt="Image Four">
+        </div>
+        <div class="img-box">
+          <img src="imgs/05.jpg" alt="Image Five">
+        </div>
+        <div class="img-box">
+          <img src="imgs/06.png" alt="Image Six">
+        </div>
+        <div class="img-box">
+          <img src="imgs/07.jpg" alt="Image Seven">
+        </div>
+        <div class="img-box">
+          <img src="imgs/08.jpg" alt="Image Eight">
+        </div>
+        <div class="img-box">
+          <img src="imgs/09.jpg" alt="Image Nine">
+        </div>
+        <div class="img-box">
+          <img src="imgs/10.jpg" alt="Image Ten">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="timeline pb-5 pt-5" id="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2022</div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Testing Heading</div>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat voluptatum enim, iusto repudiandae iste voluptate perferendis laudantium asperiores harum praesentium natus exercitationem tempore nisi quam, commodi corrupti ad, eveniet maxime!</div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Testing Heading</div>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat voluptatum enim, iusto repudiandae iste voluptate perferendis laudantium asperiores harum praesentium natus exercitationem tempore nisi quam, commodi corrupti ad, eveniet maxime!</div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2023</div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Testing Heading</div>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat voluptatum enim, iusto repudiandae iste voluptate perferendis laudantium asperiores harum praesentium natus exercitationem tempore nisi quam, commodi corrupti ad, eveniet maxime!</div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Testing Heading</div>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat voluptatum enim, iusto repudiandae iste voluptate perferendis laudantium asperiores harum praesentium natus exercitationem tempore nisi quam, commodi corrupti ad, eveniet maxime!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="features pt-5 pb-5" id="features">
+    <div class="container">
+      <h2>Our Features</h2>
+      <div class="row">
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/programming.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title">Development</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/mobile-app.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title">Marketing</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/hosting-icon.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title ">Hosting</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/mobile-app.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title">Mobile Develope</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/graphic-design.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title">Cloud and Servers</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <img src="imgs/web-design.svg" alt="...">
+          <div class="card-body text-center">
+            <p class="card-title">Seo</p>
+            <p class="card-text">We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testimonials pt-5 pb-5" id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="container d-flex justify-content-center flex-wrap flex-md-nowrap">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text pb-3">
+            Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+          </div>
+          <div class="card-text d-flex align-items-center">
+            <div class="card-image mr-2">
+              <img class="rounded-pill" src="https://via.placeholder.com/80" alt="...">
+            </div>
+            <div class="info">
+              <p class="card-title">Ahmed Mosaad</p>
+              <span>CEO At Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text pb-3">
+            Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+          </div>
+          <div class="card-text d-flex align-items-center">
+            <div class="card-image mr-2">
+              <img class="rounded-pill" src="https://via.placeholder.com/80" alt="...">
+            </div>
+            <div class="info">
+              <p class="card-title">Ahmed Mosaad</p>
+              <span>CEO At Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text pb-3">
+            Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+          </div>
+          <div class="card-text d-flex align-items-center">
+            <div class="card-image mr-2">
+              <img class="rounded-pill" src="https://via.placeholder.com/80" alt="...">
+            </div>
+            <div class="info">
+              <p class="card-title">Ahmed Mosaad</p>
+              <span>CEO At Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact pt-5 pb-5">
+    <h2>Contact Us</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <input class="form-control mb-3" type="text" placeholder="Your Name">
+          <input class="form-control mb-3" type="text" placeholder="Your Phone">
+          <input class="form-control mb-3" type="text" placeholder="Your Email">
+          <input class="form-control mb-3" type="text" placeholder="Subject">
+        </div>
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <textarea class="form-control mb-3" placeholder="Your Massage" style="resize: none;"></textarea>
+          <button class="btn send mb-3">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="text-center">Created With <span>Osama Elzero</span> Redesigned By Alaa Eldeyn</div>
+    </div>
+  </footer>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
