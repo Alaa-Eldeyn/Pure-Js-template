@@ -351,6 +351,11 @@ h2{
   border-radius: .5rem;
   background-color: #fff;
 }
+@media (max-width: 568px){
+  .overlay-popup .popup-box{
+    width: 90%;
+  }
+}
 .overlay-popup .popup-box .popupTitle{
   text-align: center;
   font-weight: bold;
